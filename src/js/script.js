@@ -10,3 +10,8 @@ imglist.forEach((imglist) => {
     });
 });
 
+lightbox.addEventListener('click', (evt) => {
+    if (evt.target === lightbox) {
+        lightbox.close();
+    };
+});
