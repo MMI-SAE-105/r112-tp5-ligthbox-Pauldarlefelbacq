@@ -1,12 +1,13 @@
 /**
 * Lightbox
 */
-img {
+#lightbox img {
+    display : flex;
     max-width: 100%;
-    height: fit-content;
-    min-width: 5%;
+    max-height: 100%;
     transition: ease-in-out 0.5s;
     justify-content: center;
+    padding: 15px;
 }
 
 #lightbox::backdrop {
@@ -21,4 +22,6 @@ img {
     justify-content: center;
     width: 80%;
     height: 75%;
+    place-items: center;
+    padding :15px;
 }
